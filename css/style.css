@@ -1,6 +1,6 @@
 /****** General ***********/
 * {
-    margin: 0px; /* Ajouter pour synchroniser */
+    margin: 0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
 }
@@ -89,7 +89,11 @@ header nav a:hover {
     color: var(--main-color);
     border-top: 3px solid var(--main-color); 
 }
-
+/*** info group ***/
+.info-group {
+    display: flex;
+    flex-direction: column;
+}
 /* Formulaire de recherche ville */
 .search-bar {
     width: 377px;
@@ -124,6 +128,31 @@ header nav a:hover {
     background: var(--main-color);
     border: none;
     border-radius: 0px 15px 15px 0px;
+}
+/* filter bar */
+.filter-bar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.filter-bar ul {
+    list-style: none;
+    display: flex;
+}
+.filter-bar ul li a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 15px;
+    padding: 0px 19px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+.filter-bar ul li a:hover {
+    background: #DEEBFF;
+}
+.filter-bar ul li a img {
+    margin-right: 10px;
 }
 
 /****** Hebergements And Populaires ***********/
