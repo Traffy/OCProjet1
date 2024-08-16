@@ -86,8 +86,44 @@ header nav a {
     line-height: 3;
 }
 header nav a:hover {
-    color: #0065FC;
-    border-top: 3px solid #0065FC; 
+    color: var(--main-color);
+    border-top: 3px solid var(--main-color); 
+}
+
+/* Formulaire de recherche ville */
+.search-bar {
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+    border: 1px solid var(--main-bg-color);
+    display: flex;
+    margin: 10px 0px;
+}
+.search-bar label {
+    width: 50px;
+    background: var(--main-bg-color);
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input[type=search] {
+    width: 195px;
+    padding-left: 20px;
+    color: black;
+    font-size: 18px;
+    border: none;
+}
+.search-bar input[type=search]:focus {
+    border: none;
+}
+.search-bar button {
+    width: 132px;
+    font-size: 18px;
+    color: white;
+    background: var(--main-color);
+    border: none;
+    border-radius: 0px 15px 15px 0px;
 }
 
 /****** Hebergements And Populaires ***********/
