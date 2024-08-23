@@ -273,7 +273,7 @@ header nav a:hover {
     margin-top: 30px;
 }
 .activities section a {
-    width: 20%;
+    width: 23%;
 }
 .activity {
     height: 439px;
@@ -293,6 +293,25 @@ header nav a:hover {
     padding-left: 20px;
     font-weight: 700;
 }
+/*** Footer ***/
+footer {
+    width: 100%;
+    display: flex;
+    background: var(--main-bg-color);
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.element {
+    flex: 1;
+    padding: 20px;
+}
+.element ul {
+    list-style: none;
+}
+.element ul li {
+    padding-top: 20px;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
