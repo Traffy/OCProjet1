@@ -159,11 +159,11 @@ header nav a:hover {
 .filter-bar ul li a:hover {
     background: #DEEBFF;
 }
-.filter-bar ul li a img {
+.filter-bar ul li a i {
     margin-right: 10px;
 }
 /* infobar */
-.infobar p img {
+.infobar p i {
     vertical-align: middle;
 }
 /****** Hebergements And Populaires ***********/
@@ -265,14 +265,14 @@ header nav a:hover {
     width: 100%;
     box-sizing: border-box;
 }
-.activities section {
+.activities-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     margin-top: 30px;
 }
-.activities section a {
+.activities-container a {
     width: 23%;
 }
 .activity {
@@ -286,7 +286,7 @@ header nav a:hover {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.activity p {
+.activity h3 {
     height: 59px;
     border-radius: 0px 0px 20px 20px;
     align-content: center;
