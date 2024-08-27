@@ -17,16 +17,16 @@
 <body>
     <div class="main-container">
         <header>
-            <div class="">
+            <div>
                 <img src="images/logo/Booki.png" title="Booki" >
             </div>
-            <nav class="">
+            <nav>
                 <a href="#hebergements" class="">Hébergements</a>
                 <a href="#activites" class="">Activités</a>
             </nav>
         </header>
         <main>
-            <div class="f-column">
+            <div class="f-column info-group">
                 <div class="f-column headline">
                     <h2 class="">Trouvez votre Hébergements pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
@@ -34,7 +34,10 @@
                 <form action="#" method="get" class="search-bar">
                     <label for="loc-search"><i class="fa-solid fa-location-dot" style="color: #000000;"></i></label>
                     <input type="search" id="loc-search" name="loc-search"  placeholder="Marseille, France" class="euro">
-                    <button class="euro">Rechercher</button>
+                    <button class="euro">
+                        <span class="btn-desktop">Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </button>
                 </form>
                 <div class="filter-bar">
                     <h3>Filtres</h3>
@@ -47,7 +50,8 @@
                 </div>
                 <div class="infobar">
                     <!-- Pour l'icon orginale, c'est la version Pro qu'il faut -->
-                    <p><i class="fa-solid fa-circle-info" style="color: #0065fc;"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+                    <i class="fa-solid fa-circle-info" style="color: #0065fc;"></i> 
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
             <div class="hebergements-and-populaires" id="hebergements">
